@@ -5,5 +5,5 @@ const sequence = new Promise (res => {
     })
 });
 
-sequence.then( v => console.log(v))
-sequence.then( v => console.log(v))
+sequence.then( v => console.log(v));
+sequence.then( v => console.log(v));
