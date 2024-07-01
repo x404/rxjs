@@ -46,9 +46,9 @@ const consumer = new CustomIterator([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 3);
 // console.log(consumer.next());
 
 for (let item of consumer) {
-    console.log(item);
-}
+    console.log('iterator1', item);
+} 
 
 Array.from(consumer).forEach( value => {
-    console.log(value)
+    console.log('iterator2',value)
 });
